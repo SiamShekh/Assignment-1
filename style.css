@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    height: 100vh;
+    padding-top: 5vh;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    background-color: #E554731A;
+}
+body{
+    display: block;
+}
+.header_title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 4.5vw;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    align-items: center;
+   
+}
+#header_text{
+    display: list-item;
+    justify-content: space-between;
+    flex: 1;
+    margin: 0;
+    align-items: center;
+    padding: 0;
+}
+.header_img{
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.header_description{
+    color: #27272799;
+    font-family: Lato;
+    font-size: 1.5vw;
+    font-style: normal;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    font-weight: 400;
+}
+.header_btn{
+    border-radius: 10px;
+    background-color: #E55473;
+    padding: 2vh 4vw;
+    border: 0;
+}
+.header_btn:hover{
+    border-radius: 10px;
+    background-color: #f9053a;
+    padding: 2vh 4vw;
+    border: 0;
+}
+a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#first_section{
+    height: 100vh;
+    padding-top: 5vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.flower_title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.flower_description{
+    color: #27272799;
+    text-align: center;
+    font-family: Lato;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 400;
+    margin: 1vw;
+}
+
+.flower_itam{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30vw;
+    margin-top: 3vw;
+}
+
+.flower{
+    width: 25vw;
+    height: 30vw;
+    flex-shrink: 0;
+    border-radius: 300px 0 0 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(31, 32, 30, 0.15);
+    background-color: #E55473;
+
+}
+
+.flower_itam_img{
+    height: 25vw;
+    width: 20vw;
+    margin-top: 5vw;
+    margin-left: 2vw;
+}
+
+.flower2{
+    width: 25vw;
+    height: 30vw;
+    flex-shrink: 0;
+    border-radius: 300px 0 0 0;
+    border-radius: 300px 300px 0px 0px;
+    display: flex;
+    align-items: center;
+    background-color: #0597A026;
+
+}
+
+.flower_itam_img2{
+    height: 25vw;
+    width: 20vw;
+    margin-left: 3vw;
+}
+
+
+.flower3{
+    width: 25vw;
+    height: 30vw;
+    flex-shrink: 0;
+    border-radius: 300px 0 0 0;
+    border-radius: 300px 300px 0px 0px;
+    background-color: #477D1126;
+
+}
+
+.flower_itam_img3{
+    height: 25vw;
+    width: 20vw;
+    margin-top: 5vw;
+    margin-left: 2vw;
+}
+.flower_itam_name{
+    flex: 1;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+.flower_itam_flex{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.flower_itam_name{
+    display: flex;
+    /* align-items: center;
+    justify-content: space-around; */
+}
+.flower_itam_Namee{
+    flex: 1;
+    text-align: center; 
+    color: #272727;
+    font-family: Lato;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration-line: underline;
+    margin-top: 2vw;
+}
+.div_flower_1{
+    flex: 1;
+}
+.service-main-div{
+    height: 35vh;
+    margin: 5vw 10vw ; 
+    background-color: #f1f1f1;
+    border-radius: 15px;
+}
+.service-main-div_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+}
+.service-main-div_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+}
+.local_div{
+    flex: 1;
+    margin: 0 auto;
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+}
+.service_text{
+    flex: 1;
+    text-align: center; 
+    color: #272727;
+    font-family: Lato;
+    font-size: 1.3vw;
+    font-style: normal;
+    font-weight: 700;
+}
+.image_icon_service{
+    width: 4vw;
+    height: 4vw;
+}
+
+.discount_section{
+    display: flex;
+    background-color: #FDF6F8;
+    /* background-color: ; */
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.discount_title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 2.5vw;
+    font-weight: 800;
+    align-items: center;
+    text-align: center;
+    align-content: start;   
+}
+.des_text{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.discount_image{
+    flex: 1;
+}
+.discount_description{
+    color: #27272799;
+    font-family: Lato;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    margin: 1vw;
+    text-align: center;
+}
+.discount_btn{
+    border-radius: 0.7vw;
+    background-color: #E55473;
+    padding: 2vh 4vw;
+    border: 0;
+    text-align: center;
+}
+
+.discount_btn:hover{
+    border-radius: 0.7vw;
+    background-color: #dd0b39;
+    padding: 2vh 4vw;
+    border: 0;
+    text-align: center;
+}
+
+.dis_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.discount_image_flower{
+    width: 17vw;
+    height: 50vh;
+}
+.discount_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.instagram_title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 2.5vw;
+    font-weight: 800;
+    align-items: center;
+    text-align: center;
+    align-content: start;      
+}
+.instagram-flower-img{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: ; */
+}
+.flower_instagram{
+    flex: 1;
+    height: 20vw;
+    width: 15vw;
+    margin: 0.5vw;
+}
+.subscribe{
+    margin: 5vw 10vw;
+    background-image: url('Flower Asset/Rectangle 9.png');
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+.subscribe_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #272727;
+    font-family: Lato;
+    font-size: 2.5vw;
+    font-weight: 800;
+    align-items: center;
+    text-align: center;
+    align-content: start;     
+    padding-top: 5vw;
+}
+.get_input{
+    width: 38.7vw;   
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+#email{
+    border: 0;
+    background-color: white;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    padding-left: 2vw;
+    border-radius: 0.5vw;
+    padding-right: 20vw;
+    font-size: 1vw;
+    
+}
+.subscribe_btn{
+    border-radius: 0.5vw;
+    background-color: #E55473;
+    padding: 1vw 3vw;
+    border: 0;
+    margin-left: 1vw;
+    text-align: center;
+}
+
+.subscribe_btn:hover{
+    border-radius: 0.7vw;
+    background-color: #dd0b39;
+    padding: 1vw 3vw;
+    border: 0;
+    text-align: center;
+}
+
+.a{
+    color: #fff;
+}
+.sitename{
+    color: #dd0b39;
+    font-family: Lato;
+    font-size: 2.5vw;
+    font-weight: 800;
+    text-align: center;
+}
+.sitename>span{
+    color: #fff;
+    font-family: Lato;
+    font-size: 2.5vw;
+    font-weight: 800;
+    text-align: center;
+}
+footer{
+    height: 50vh;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+
+}
+.site_info{
+    color: #f2f2f2;
+    font-family: Lato;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    margin: 1vw;
+    text-align: center;   
+}
+.sitecopy_right{
+    color: #bcbcbc99;
+    font-family: Lato;
+    font-size: 0.9vw;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 2vw;
+    text-align: center;
+}
+#happay_client{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 2.5vw;
+    margin-bottom: 2vw;
+    background-color: #000000;
+    align-items: center;
+}
+.number{
+    color: white;
+    font-family: Lato;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 2vw;
+    text-align: center;
+}
+.text{
+    color: white;
+    font-family: Lato;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 200;
+}
+#number-text{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
