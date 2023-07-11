@@ -26,7 +26,7 @@ body{
    
 }
 #header_text{
-    display: list-item;
+    display: inline;
     justify-content: space-between;
     flex: 1;
     margin: 0;
